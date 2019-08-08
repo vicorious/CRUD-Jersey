@@ -8,6 +8,9 @@
 - PostgreSQL 11 (postgresql-11.4-3-windows-x64.exe) https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 - Apache Tomcat 9 (apache-tomcat-9.0.22-windows-x64) https://tomcat.apache.org/download-90.cgi
 
+Instalar Tomcat en Eclipse
+https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.stardust.docs.wst%2Fhtml%2Fwst-integration%2Fconfiguration.html
+
 
 # PostgreSQL Credenciales
 
