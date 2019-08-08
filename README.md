@@ -1,6 +1,6 @@
 # CRUD-Jersey-
 
-#Requerimientos
+# Requerimientos
 
 - Java 1.8
 - JDK 8.X (jdk-8u221-windows-x64) https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -13,12 +13,19 @@
 
 Debe generarse como:
 - User : postgres
-- Password: *postgre123*
+- Password: astericopostgre123asterisco
+
+*Cambiar la palabra asterisco por el verdadero asterisco*
 
 
 # Existe una carpeta SQL con el DDL de la base de datos y el DML
 
 - /sql/customers.sql (La definicion de la base de datos)
 - /sql/customers_dml.sql (Los datos a insertar)
+
+# IDE
+
+- Se uso la version de eclipse _2019-06 (4.12.0) "Java for developer"
+
 
 
