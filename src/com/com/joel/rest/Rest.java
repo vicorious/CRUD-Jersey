@@ -31,15 +31,25 @@ public class Rest
 		this.facade = new UserFacade();
 	}
 	
-	@Path("/user")
+	/**
+	 * 
+	 * @param _user
+	 * @return
+	 */
+	@Path("/user/{_user}")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response getUsers()
+	public Response getUsers(@PathParam("_user") String _user)
 	{
-		CustomerDTO customer = this.facade.mappingGetUser("123123");
+		CustomerDTO customer = this.facade.mappingGetUser(_user);
 		return Response.ok(customer).build();
 	}
 	
+	/**
+	 * 
+	 * @param _body
+	 * @return
+	 */
 	@Path("/insertUser")
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
@@ -49,6 +59,11 @@ public class Rest
 		return Response.ok(customer).build();
 	}
 	
+	/**
+	 * 
+	 * @param _body
+	 * @return
+	 */
 	@Path("/updateUser")
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
