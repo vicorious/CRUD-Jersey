@@ -1,4 +1,4 @@
-# CRUD-Jersey-
+# CRUD-Jersey
 
 # Requerimientos
 
